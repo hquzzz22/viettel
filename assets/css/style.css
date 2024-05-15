@@ -72,7 +72,6 @@ p {
 .heading.lv3 {
   font-size: 3.2rem;
   line-height: 1.26;
-
 }
 
 img.vietel-ck {
@@ -85,7 +84,9 @@ img.vietel-ck {
   margin: 0 auto;
   max-width: calc(100% - 48px);
 }
-
+strong {
+  font-weight: 600;
+}
 .header {
   background-color: #fffcf4;
 }
