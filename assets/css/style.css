@@ -52,7 +52,40 @@ a {
 p {
   line-height: 1.6;
 }
+@keyframes slide {
+  from {
+    height: 0;
+  }
+  to {
+    height: 700px;
+  }
+}
+.hiden {
+  display: none;
+}
+#viettel-ca {
+  position: fixed;
+  top: 0;
+  left: 0;
 
+  right: 0;
+  background-color: palevioletred;
+  color: #ffff;
+}
+
+.signature,
+.item {
+  margin-top: 100px;
+}
+#viettel-ca:hover {
+  color: green;
+  cursor: pointer;
+}
+
+.arrow {
+  display: flex;
+  justify-content: space-between;
+}
 .heading {
   font-family: var(--heading-font);
   font-weight: 700;
