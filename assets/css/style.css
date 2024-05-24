@@ -10,6 +10,10 @@ body {
   font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
 }
+
+ th, td {
+  border:1px solid black;
+}
 :root {
   --heading-font: Sen, sans-serif;
   --primary-color: #ffb900;
